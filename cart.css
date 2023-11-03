@@ -1,0 +1,153 @@
+*{box-sizing: border-box;
+
+}
+body{
+    margin:0px;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color:white;
+    padding-bottom: 10px;
+    padding-top:0px;
+    position: absolute;
+    margin-bottom:3px;
+    margin-top: 10px;
+    margin-left: 70px;
+    
+
+}#logo{
+    margin-left: -80px;
+}
+#logo:hover{
+margin-top: 5px;
+
+cursor: pointer;  
+}
+
+
+
+header a
+{
+  text-decoration: none;
+    letter-spacing: 0px;
+    margin-right: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:black;  
+    
+
+}
+
+header a:hover{
+    text-decoration:underline;
+    text-decoration-color:black;
+    cursor: pointer;
+
+}
+
+
+header img{
+    height: 25px;
+    width: 110px;
+    margin-left: 55px;
+    margin-right: 20px;
+}
+
+
+
+.rightmenu
+{
+margin-left: 350px;
+}
+
+.container nav :active{
+    outline-style:dashed;
+    outline-width: 1px;
+    outline-color: grey;
+    outline-offset: 15px;
+}
+
+
+
+.head1
+{
+    display:flex;
+    flex-direction: column;
+    font-size: 11px;
+    line-height: 16px;
+    color: grey;
+    
+   
+ 
+   
+}
+.cart-text{
+    padding-top: 90px;
+    margin-left: 90px;
+    font-size:x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.cart-text a{
+float:right;
+color: rgb(10, 120, 230);
+font-size: medium;
+text-decoration: underline;
+    
+}
+#hr
+{
+  margin-right: 520px;
+  margin-left: 90px;
+ color:grey;;
+}
+.needhelp
+{
+  margin-left: 90px;
+  margin-right: 320px;
+}
+.call{
+  margin-right: 320px;
+
+}
+
+.footer-up
+{
+    margin-top:40px;
+    margin-bottom: 0px;
+    padding:30px;
+    background-color: rgb(245, 237, 237);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    color: grey;
+    padding-top: 300px;
+   
+}
+
+
+
+
+.footer-down
+{
+  display: flexbox;
+  justify-content: space-evenly;
+ 
+  padding: 20px;
+  background-color:rgb(245, 237, 237) ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+.f-right{
+  float: right;
+}
+#privacy
+{
+  color:black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

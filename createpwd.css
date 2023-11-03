@@ -1,0 +1,78 @@
+
+body {
+    background-color:rgb(209, 196, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-container {
+    background-color: white;
+    
+    padding: 20px;
+    
+    height: 350px;
+    width: 450px;
+   
+    
+  }
+
+  
+  #logo{
+      margin-left: 20px;
+      width: 90px;
+  }
+  #createpwd
+  {
+      font-size:larger;
+
+  }
+
+
+  .password-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+ 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    font-size: 16px;
+    background-color: #f7f7f7;
+    color:black;
+  }
+  .password-input:focus
+  {
+    outline-style: none;
+  }
+  #showPassword {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #next
+  {
+     margin-left: 260px; 
+     width: 100px;
+     color:white;
+     background-color:rgb(41, 41, 206) ;
+     border: none;
+     height: 30px;
+
+  }
+.login-container h3{
+    font-size:small;
+}
+
+
+#password-error
+{
+   color: red; 
+}
+ 

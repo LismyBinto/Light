@@ -1,0 +1,81 @@
+
+    body {
+      background-color:rgb(209, 196, 196);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: white;
+      
+      padding: 20px;
+      
+      height: 350px;
+      width: 450px;
+     
+      
+    }
+
+    
+    #logo{
+        margin-left: 20px;
+        width: 90px;
+    }
+    #sign-in
+    {
+        font-size:larger;
+
+    }
+    #email{
+       
+        border-bottom: black;
+    }
+    #next
+    {
+       margin-left: 260px; 
+       width: 100px;
+       color:white;
+       background-color:rgb(41, 41, 206) ;
+       border: none;
+       height: 30px;
+       margin-top: 90px;
+    }
+ 
+   
+    .createone
+    {
+        display:flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .securitykey
+  {
+    display:flex;
+    flex-direction: raw;
+  }
+  .securitykey a:hover
+  {
+
+  color: grey;
+  
+  }.signoptions
+  {
+    height: 60px;
+    width:450px;
+    background-color: white;
+    margin-top:450px;
+    margin-left:-450px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+  }
+  #keyimage{
+    height:30px;
+    width: 70px;
+  }
+  .form-controll{
+border: none;
+  }
